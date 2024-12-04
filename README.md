@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# Inkspire - Advanced eBook Writing Tool 📚✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, feature-rich writing application built with React and TypeScript, designed to make writing easier and more efficient.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+### Voice Recognition
+- Advanced speech-to-text capabilities
+- Continuous voice input with smart text insertion
+- Intelligent spacing and formatting
+- Error recovery and auto-restart
 
-### `npm start`
+### Document Management
+- Chapter-based organization
+- Drag-and-drop chapter reordering
+- Multiple view modes (Editor, Preview, Split)
+- Auto-save functionality
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Modern UI/UX
+- Clean, distraction-free writing interface
+- Dark/Light/Sepia theme support
+- Real-time markdown preview
+- Responsive design
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/iblemz/inkspire.git
 
-### `npm run build`
+# Navigate to project directory
+cd inkspire
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Start development server
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Development Workflow
+1. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+2. Make your changes and commit:
+   ```bash
+   git add .
+   git commit -m "Description of changes"
+   ```
+3. Push to your branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+4. Create a Pull Request on GitHub
 
-### `npm run eject`
+## 🛠️ Tech Stack
+- React
+- TypeScript
+- Web Speech Recognition API
+- Tailwind CSS
+- react-beautiful-dnd
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🧪 Testing
+```bash
+# Run tests
+npm test
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run tests in watch mode
+npm test:watch
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📦 Building for Production
+```bash
+npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🤝 Contributing
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-## Learn More
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🙏 Acknowledgments
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- Web Speech Recognition API
